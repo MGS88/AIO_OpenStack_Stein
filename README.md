@@ -5,9 +5,9 @@ username/password: openstack/openstack
 
 this images toke the IP by VBox dhcp, which was 10.0.2.15
 if you whant the host to take new dhcp please execute:
-## sudo dhclient
+$ sudo dhclient
 and run
-## ip a
+$ ip a
 to show your current ip
 
 recommanded specs:
