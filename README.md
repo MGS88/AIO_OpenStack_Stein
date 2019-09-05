@@ -1,5 +1,5 @@
 # AIO_OpenStack_Stein
-Images of all in one openstack stein release based on Ubuntu 18.04 LTS for VirutalBox
+OVA format Image of all in one openstack stein release based on Ubuntu 18.04 LTS for VirutalBox
 
 Host OS username/password: openstack/openstack , note: root password also "openstack"
 OpenStack username/password: admin/nomoresecret
@@ -13,7 +13,7 @@ Also added another rule to access ssh, to access ssh:
 127.0.0.1:222
 username/password: openstack/openstack
 
-if you whant the host to take new dhcp please execute:
+if you want the host to take new dhcp please execute:
 $ sudo dhclient
 then execute:
 $ ip a
