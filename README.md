@@ -23,9 +23,9 @@ then execute:
 
 $ ip a
 
-to show your current ip
+to show your current ip under interface name enp0s3
 
-# recommanded specs:
+# recommanded VM specs:
 CPU: 4 cores
 
 RAM: 8 GB
