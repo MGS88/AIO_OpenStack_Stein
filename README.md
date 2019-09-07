@@ -22,15 +22,14 @@ Also added another rule to access ssh, to access ssh:
 127.0.0.1:222
 and username/password is openstack/openstack
 
-To take new IP by dhcp please execute:
 
-$ sudo dhclient
-
-then execute:
+if the OpenStack http page didn't show up verify that your ip is 10.0.2.15 by executing:
 
 $ ip a
 
-to show your current ip under interface name enp0s3
+your current ip should be under interface name enp0s3
+
+you can edit the forward rules in VM settings > Network > Adapter 1 > Advance > Port forwarding and change 10.0.2.15 to yours
 
 # recommanded VM specs:
 CPU: 4 cores
