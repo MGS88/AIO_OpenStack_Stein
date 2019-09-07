@@ -6,7 +6,7 @@ openstack/openstack , note: root password also "openstack"
 # OpenStack username/password: 
 admin/nomoresecret
 
-this images toke the IP by VBox dhcp, which was 10.0.2.15:
+this images toke the IP by Virtual Box's dhcp, which was 10.0.2.15, 
 so I added a rule in VBox to access 10.0.2.15:80 by 127.0.0.1:88
 # OpenStack http dashboard (Horizon):
 https://127.0.0.1:88
