@@ -1,4 +1,4 @@
-# AIO_OpenStack_Stein
+# AIO OpenStack Stein
 
 You can download the file via google drive due that the file is larger than 2GB:
 
