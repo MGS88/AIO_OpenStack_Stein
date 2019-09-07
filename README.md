@@ -30,6 +30,10 @@ $ ip a
 your current ip should be under interface name enp0s3
 
 you can edit the forward rules in VM settings > Network > Adapter 1 > Advance > Port forwarding and change 10.0.2.15 to yours
+ 
+Alternativly shutdown all the machines in Vbox manager and take new IP by dhcp by executing:
+
+$ sudo dhclient
 
 # recommanded VM specs:
 CPU: 4 cores
