@@ -15,10 +15,12 @@ Also added another rule to access ssh, to access ssh:
 127.0.0.1:222
 and username/password is openstack/openstack
 
-# To take new IP by dhcp please execute:
+To take new IP by dhcp please execute:
+
 $ sudo dhclient
 
 then execute:
+
 $ ip a
 
 to show your current ip
