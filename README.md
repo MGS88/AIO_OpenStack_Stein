@@ -1,5 +1,10 @@
 # AIO_OpenStack_Stein
+
+You can download the file via google drive due that the file is larger than 2GB:
+
+
 OVA format Image of all in one openstack stein release based on Ubuntu 18.04 LTS for VirutalBox
+to run it, choose the image under file > import appliance in Vbox manager
 
 # Host OS username/password: 
 openstack/openstack , note: root password also "openstack"
