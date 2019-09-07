@@ -7,7 +7,9 @@ OVA format Image of all in one openstack stein release based on Ubuntu 18.04 LTS
 to run it, choose the image under file > import appliance in Vbox manager
 
 # Host OS username/password: 
-openstack/openstack , note: root password also "openstack"
+openstack/openstack 
+
+note: root password also "openstack"
 # OpenStack username/password: 
 admin/nomoresecret
 
