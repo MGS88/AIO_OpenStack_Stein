@@ -1,7 +1,7 @@
 # AIO OpenStack Stein
 
 You can download the file via google drive due that the file is larger than 2GB:
-
+https://drive.google.com/file/d/1ai7_11HcSTdLziq3X43kyn0HzgEKHuLg
 
 OVA format Image of all in one openstack stein release based on Ubuntu 18.04 LTS for VirutalBox
 to run it, choose the image under file > import appliance in Vbox manager
