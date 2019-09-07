@@ -13,14 +13,17 @@ https://127.0.0.1:88
 
 Also added another rule to access ssh, to access ssh:
 127.0.0.1:222
-username/password: openstack/openstack
+and username/password is openstack/openstack
 
-if you want the host to take new dhcp please execute:
+# To take new IP by dhcp please execute:
 $ sudo dhclient
+
 then execute:
 $ ip a
+
 to show your current ip
 
 # recommanded specs:
 CPU: 4 cores
+
 RAM: 8 GB
