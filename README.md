@@ -1,9 +1,9 @@
-# AIO OpenStack Stein
+# AIO OpenStack Stein VBox
 
 You can download the file via google drive due that the file is larger than 2GB:
 https://drive.google.com/file/d/1ai7_11HcSTdLziq3X43kyn0HzgEKHuLg
 
-OVA format Image of all in one openstack stein release based on Ubuntu 18.04 LTS for VirutalBox
+OVA format Image for Virtual Box of all in one openstack stein release based on Ubuntu 18.04 LTS for VirutalBox
 to run it, choose the image under file > import appliance in Vbox manager
 
 # Host OS username/password: 
@@ -34,6 +34,18 @@ you can edit the forward rules in VM settings > Network > Adapter 1 > Advance > 
 Alternativly shutdown all the machines in Vbox manager and take new IP by dhcp by executing:
 
 $ sudo dhclient
+
+
+# VMware Image
+you can download the VMware image of OpenStack AIO Stein, by:
+https://drive.google.com/open?id=11XSY6o5a5S3S5Z4JabzjH5xNVrB3M2RA
+
+# Adjusting the network to access the HTTP page:
+Edit > Virtual Network Editor > Change Settings (yes) > Select Type NAT (or add custom for .e.x:VMnet15)
+
+edit the subnet to 192.168.17.0 255.255.255.0
+
+Make sure the VM network adapter is NAT
 
 # recommanded VM specs:
 CPU: 4 cores
