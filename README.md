@@ -41,7 +41,7 @@ you can download the VMware image of OpenStack AIO Stein, by:
 https://drive.google.com/open?id=11XSY6o5a5S3S5Z4JabzjH5xNVrB3M2RA
 
 # Adjusting the network to access the HTTP page:
-Edit > Virtual Network Editor > Change Settings (yes) > Select Type NAT (or add custom for .e.x:VMnet15)
+Edit > Virtual Network Editor > Change Settings (yes) > Select Type NAT 
 
 edit the subnet to 192.168.17.0 255.255.255.0
 
